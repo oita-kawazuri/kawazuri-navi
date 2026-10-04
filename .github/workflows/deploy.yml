@@ -1,0 +1,46 @@
+# サイトを作り直して公開します。
+#  - 変更を保存（main に反映）したとき
+#  - 1時間ごと（雨量・天気を最新にするため）
+#  - 手動（Actions 画面の「Run workflow」）
+name: サイトを公開
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 * * * *" # 毎時17分（混雑を避けるため0分を外しています）
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: ページを作成（気象庁の最新データを取り込み）
+        run: node build.js
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
