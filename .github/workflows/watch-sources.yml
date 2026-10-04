@@ -1,0 +1,34 @@
+# 毎週月曜の朝、県や漁協の遊漁規則ページを自動でチェックします。
+# 変更が見つかると、GitHub の「Issues」に確認依頼が自動で作られます。
+# （チェック結果を保存することで、リポジトリが「活動中」と判定され、
+#   1時間ごとの自動更新が止まるのも防ぎます）
+name: 遊漁規則の変更チェック
+
+on:
+  schedule:
+    - cron: "3 22 * * 0" # 日本時間 月曜 7:03
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 公開資料をチェック
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/watch-sources.js
+      - name: チェック結果を保存
+        run: |
+          git config user.name "kawazuri-navi-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/_state
+          git diff --cached --quiet || (git commit -m "遊漁規則の自動チェック結果を保存" && git push)
