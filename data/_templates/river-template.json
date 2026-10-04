@@ -1,0 +1,58 @@
+{
+  "slug": "kawanamae",
+  "prefecture": "oita",
+  "river": "〇〇川",
+  "status": "draft",
+  "rivers": ["〇〇川", "支流の名前"],
+  "area": "〇〇川水系の本流・支流・派流",
+  "catchphrase": "この川の魅力をひとことで",
+  "intro": "川の紹介文を2〜3文で書きます。どんな魚が釣れるか、どこが人気かなど。",
+  "cooperatives": [
+    { "name": "〇〇川漁業協同組合", "shortName": "〇〇川漁協", "address": "〇〇県〇〇市〇〇1-2-3", "tel": "000-000-0000" }
+  ],
+  "live": {
+    "points": [
+      { "label": "下流（〇〇市）", "lat": 33.0, "lng": 131.0 },
+      { "label": "上流（〇〇町）", "lat": 33.1, "lng": 131.1 }
+    ],
+    "jmaArea": ""
+  },
+  "links": [
+    { "label": "全国の川の水位・雨量（国土交通省 川の防災情報）", "url": "https://www.river.go.jp/", "kind": "water" }
+  ],
+  "rulesEffective": "2026-01-01",
+  "lastVerified": "2026-01-01",
+  "sources": [
+    { "title": "〇〇川漁協 遊漁規則", "url": "https://" }
+  ],
+  "fees": {
+    "target": "全魚種共通",
+    "items": [
+      { "label": "日券", "detail": "", "price": 1000 },
+      { "label": "年券", "detail": "", "price": 5000 }
+    ],
+    "notes": []
+  },
+  "freeFor": [
+    { "who": "中学生以下", "note": "" }
+  ],
+  "onlineTickets": [],
+  "species": [
+    { "id": "ayu", "seasons": [["06-01", "10-31"]], "methods": "竿釣・友釣", "sizeLimit": "", "notes": [] },
+    { "id": "yamame", "seasons": [["03-01", "09-30"]], "methods": "竿釣", "sizeLimit": "", "notes": [] }
+  ],
+  "spots": [],
+  "closedAreas": [
+    { "river": "〇〇川", "place": "〇〇橋から上流100m", "from": "", "to": "" }
+  ],
+  "bannedMethods": ["投網"],
+  "manners": ["遊漁券を持って釣りをしてください。"],
+  "shops": [
+    { "area": "〇〇市", "name": "〇〇釣具店", "tel": "000-000-0000", "address": "〇〇市〇〇1-2-3" }
+  ],
+  "shopNote": "",
+  "news": [],
+  "faq": [
+    { "q": "〇〇川の遊漁券はいくらですか？", "a": "日券1,000円、年券5,000円です。" }
+  ]
+}
