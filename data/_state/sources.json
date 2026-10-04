@@ -1,0 +1,100 @@
+{
+  "lastRun": "2026-10-04",
+  "sources": {
+    "https://www.pref.oita.jp/soshiki/16350/09.html": {
+      "label": "大分県 漁業管理課「内水面における遊漁規則」",
+      "hash": "e3be3ae3d5b766e6",
+      "links": [
+        "https://www.pref.oita.jp/uploaded/attachment/2205098.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2205107.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2205108.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2205109.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2221490.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2221598.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249730.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249731.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249734.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249737.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249739.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249740.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2249742.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2258096.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275641.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275642.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275643.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275644.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275645.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275646.pdf",
+        "https://www.pref.oita.jp/uploaded/attachment/2275647.pdf"
+      ],
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2221490.pdf": {
+      "label": "山国川漁業協同組合の遊漁規則",
+      "hash": "fbf43ed9c08e5bdd",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2205098.pdf": {
+      "label": "宇佐山郷・駅館川・長洲漁業協同組合の遊漁規則",
+      "hash": "8d72c7c3d114deea",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2275642.pdf": {
+      "label": "大野川・鶴崎漁業協同組合の遊漁規則",
+      "hash": "33dfa8cec0c6ad41",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2258096.pdf": {
+      "label": "番匠川漁業協同組合の遊漁規則",
+      "hash": "21a85013fd4af682",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2249730.pdf": {
+      "label": "玖珠郡漁業協同組合の遊漁規則",
+      "hash": "dd803d32a643b89e",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2249731.pdf": {
+      "label": "日田漁業協同組合の遊漁規則",
+      "hash": "30f76da34a43ad23",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2205107.pdf": {
+      "label": "桂川漁業協同組合の遊漁規則",
+      "hash": "783062c075616a21",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2205108.pdf": {
+      "label": "宇目町漁業協同組合の遊漁規則",
+      "hash": "5e585746e6bdbe97",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2205109.pdf": {
+      "label": "臼杵河川漁業協同組合の遊漁規則",
+      "hash": "6bc9377e119032ad",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2249734.pdf": {
+      "label": "津江漁業協同組合の遊漁規則",
+      "hash": "54bae43d18c431db",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    },
+    "https://www.pref.oita.jp/uploaded/attachment/2275647.pdf": {
+      "label": "大分川漁業協同組合 内共第8号 遊漁規則（令和8年8月17日認可）",
+      "hash": "d20b0d81cf1a63c7",
+      "checked": "2026-10-04",
+      "changed": "2026-10-04"
+    }
+  }
+}
